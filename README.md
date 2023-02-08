@@ -28,12 +28,12 @@ aa_code1 = ['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T',
 aa_code_cat = ['P','A','K','T','O']
 
 # Amino acid category mapping dictionary
-aa_code_cat_dict = {'P':'P',
+aa_code_cat_dict = { 'P':'P',
                      'A':'A',
                      'K':'K',
                      'T':'T',
                      'C':'O', 'D':'O', 'E':'O', 'F':'O', 'G':'O', 'H':'O', 'I':'O', 'L':'O',
                      'M':'O', 'N':'O', 'Q':'O', 'R':'O', 'S':'O', 'V':'O', 'W':'O', 'X':'O', 'Y':'O'}
 ```
+This dictionary can then be used to convert a sequence of amino acids to a sequence oc amino acid categories (P, A, K, T and O in this case). More details on this can be found in the notebook along with the code.    
 
-A useful feature has been provided
