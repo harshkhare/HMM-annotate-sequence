@@ -6,6 +6,8 @@ An HMM is trained using labeled training example sequences which can then be use
 
 Here, amino acid sequences of proteins have been used however, the functions may be adapted to other types of sequences.
 
+|                                      |                State sequence                |
+|--------------------------------------|----------------------------------------------|
 | Amino acid sequence (observed states)| MSDFHPLWSCNMEAKPEAKKAAKKAPAKKAATKATSAKKAPAPAA|
 | Annotated sequence (hidden states)   | FFFFFFFFFFFFFFFFFTTTTTTTTTTTTTTTTTTTTTTTTTTTT|
 
