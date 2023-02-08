@@ -1,6 +1,7 @@
 # HMM-annotate-sequence
 
 These IPython notebooks provide a user friendly way to use Hidden Markov Models (HMMs) to annotate protein sequences based on sequence characteristics.
+Pomogranate package has been used to build HMM model (https://pomegranate.readthedocs.io/en/latest/HiddenMarkovModel.html)    
 
 An HMM is trained using labeled training example sequences which can then be used to predict the labels for a new sequence.  
 
